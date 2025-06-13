@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--steamGreenA: #4c5744;
+	--steamGreenB: #3e4637;
+	--steamWhite: #f5f5f5;
+	--steamGrey: #A0AA95;
+	--steamGold: #bfba50;
+
+	--buttonBorderBtmRgt: #28311e;
+	--buttonBorderTopLft: #828b78;
+}
+body {
+	color: var(--steamWhite);
+	background-color: var(--steamGreenA);
+	min-width: 100vw;
+	min-height: 100vh;
+}
+#steamBox {
+	font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+	max-width: 35rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	padding: .5rem;
+	background-color: var(--steamGreenB);
+}
+
+.steamTextA {
+	font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+	color: var(--steamWhite);
+	font-size: .9rem;
+}
+.steamTextB {
+	font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+	color: var(--steamGrey);
+	font-size: .9rem;
+}
+.steamTextC {
+	font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+	color: var(--steamGold);
+	font-size: .9rem;
+}
+.steamButton {
+	font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+	font-size: .9rem;
+	padding: .15rem;
+	min-width: 5rem;
+	max-width: 10rem;
+	color: var(--steamWhite);
+	background-color: var(--steamGreenA);
+	text-align: start;
+	border-left: 1px solid var(--buttonBorderTopLft);
+	border-top: 1px solid var(--buttonBorderTopLft);
+	border-right: 1px solid var(--buttonBorderBtmRgt);
+	border-bottom: 1px solid var(--buttonBorderBtmRgt);
+}
